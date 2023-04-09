@@ -25,3 +25,15 @@ for(var x = 0; x < shapes.length; x++) {
     console.log(shapes[x]);
    }
    
+
+   function helloWorld() {
+    console.log("Hello World!");
+   }
+   helloWorld();
+
+   function listTopics() {
+    for (var x = 0; x < topics.length; x++) {
+      console.log(topics[x]);
+    }
+  }
+  listTopics();
